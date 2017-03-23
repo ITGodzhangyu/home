@@ -1,0 +1,26 @@
+body{font-family:"΢���ź�";
+	font-size:12px;
+	margin:0;
+	padding:0;
+	border:none;
+}
+html,div,p,span,form,legend,fieldset,h1,h2,h3,h4,h5,h6,hr,ul,li,ol,dl,dd,dt{
+	margin:0;padding:0;
+	border:none;
+}
+button,img,a,input,textarea,th,td,table{
+	margin:0;padding:0;
+}
+a{text-decoration:none;color:#000}
+ul,li,ol{list-style:none}
+img{border:none}
+.clear{height:0;overflow:hidden;font-size:0;clear:both}
+body,html{height:100%}
+@font-face {
+  font-family: 'iconfont';  /* project id 240115 */
+  src: url('//at.alicdn.com/t/font_q0ykdhj4tcgl23xr.eot');
+  src: url('//at.alicdn.com/t/font_q0ykdhj4tcgl23xr.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_q0ykdhj4tcgl23xr.woff') format('woff'),
+  url('//at.alicdn.com/t/font_q0ykdhj4tcgl23xr.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_q0ykdhj4tcgl23xr.svg#iconfont') format('svg');
+}

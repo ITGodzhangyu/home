@@ -1,0 +1,104 @@
+.topheader {
+  width: 100%;
+  position: fixed;
+  min-width: 1240px;
+  z-index: 10;
+  height: 100px;
+  background: rgba(0, 0, 0, 0.5);
+  top: -100px;
+  transition: all 1s;
+}
+.topheader .container {
+  position: absolute;
+  left: 40%;
+}
+.topheader .container .controls {
+  display: flex;
+}
+.topheader .container .controls div {
+  color: #fff;
+  line-height: 100px;
+}
+.topheader .container .controls div img {
+  vertical-align: middle;
+}
+.topheader .container .controls div input {
+  margin-top: 40px;
+  margin-left: 10px;
+}
+.topheader .view {
+  position: absolute;
+  width: 100px;
+  left: 20%;
+}
+.topheader .view img {
+  width: 70px;
+  border: 10px solid #000;
+  border-radius: 50%;
+  height: 70px;
+}
+.topheader .zimu {
+  position: absolute;
+  left: 27%;
+  top: 40px;
+  height: 20px;
+  width: 120px;
+  overflow: hidden;
+}
+.topheader .zimu .zimu-move {
+  position: absolute;
+  width: 360px;
+}
+.topheader .zimu .zimu-move span {
+  width: 120px;
+  color: #00FFFF;
+}
+.topheader .touc {
+  position: absolute;
+  font-family: iconfont;
+  font-style: normal;
+  bottom: -23px;
+  font-size: 30px;
+  color: aqua;
+  left: 49%;
+  cursor: pointer;
+}
+.index-header {
+  width: 1240px;
+  position: relative;
+  margin: 0 auto;
+  height: 300px;
+  z-index: 3;
+}
+.index-header .index-nav {
+  position: absolute;
+  z-index: 4;
+  width: 100%;
+  display: flex;
+}
+.index-header .index-nav li {
+  width: 200px;
+  height: 300px;
+  float: left;
+}
+.index-header .index-nav li span {
+  color: red;
+  background: blue;
+  font-size: 30px;
+}
+.index-header .index-nav li img {
+  width: 100%;
+  height: 100%;
+  transition: all 1s;
+}
+.index-header .index-nav li img:hover {
+  cursor: pointer;
+  transition: all 1s;
+  transform: scale(1.2);
+}
+.ll {
+  background: red;
+  width: 100px;
+  height: 100px;
+}
+/*# sourceMappingURL=index.css.map */

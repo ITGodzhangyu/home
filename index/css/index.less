@@ -1,0 +1,106 @@
+.topheader{
+     width:100%;
+     position:fixed;
+     min-width:1240px;
+     z-index:10;
+    height:100px;
+    background:rgba(0,0,0,.5);
+    top:-100px;
+    transition:all 1s;
+    .container{
+        position:absolute;
+        left:40%;
+        .controls{
+            display:flex;       
+            div{
+                color:#fff;
+                 line-height:100px;
+                img{
+                    vertical-align: middle;
+                }
+                input{
+                    margin-top:40px;
+                    margin-left:10px;
+                }
+            }
+        }
+    }
+    .view{
+        position:absolute;
+        width:100px;
+        left:20%;
+        img{
+            width:70px;
+            border:10px solid #000;
+            border-radius:50%;
+            height:70px;
+        }  
+    }
+    .zimu{
+            position:absolute;
+            left:27%;
+            top:40px;
+            height:20px;
+            width:120px;
+            overflow:hidden;
+            .zimu-move{
+                position:absolute;
+                width:360px;
+                span{
+                    width:120px;
+                    color:#00FFFF;
+                }
+            }
+            
+        }
+    .touc{
+        position:absolute;
+        font-family: iconfont;
+        font-style:normal;
+        bottom:-23px;
+        font-size:30px;
+        color:aqua;
+        left:49%;
+        cursor:pointer;
+    }
+}
+
+.index-header{
+    width:1240px;
+    position:relative;
+    margin:0 auto;
+    height:300px;
+    z-index:3;
+    .index-nav{
+        position:absolute;
+        z-index:4;
+        width:100%;
+        display:flex;
+        li{
+            width:200px;
+            height:300px;
+            float:left;
+           
+            span{
+                color:red;
+                background:blue;
+                font-size:30px;
+            }
+            img{
+                width:100%;
+                height:100%;
+                transition:all 1s;
+            }
+            img:hover{
+                cursor:pointer;
+                transition:all 1s;
+                transform:scale(1.2);
+            }
+        }
+    }
+}
+.ll{
+    background:red;
+    width:100px;
+    height:100px;
+}
