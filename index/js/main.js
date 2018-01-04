@@ -197,4 +197,12 @@ function myajax(){
 window.onload = function(){
 	audio();
 	main();
+	$(".touc").click();
+	$("#play").click();
+	function index(){
+		$('#fg').css('color','#03a9f4');  //默认值
+		setTimeout(" $('#fg').css('color','#fF0000')",100); //第一次闪烁
+		setTimeout( "$('#fg').css('color','#ccc')",200); //第二次闪烁
+	};
+	window.setInterval(index, 400); 
 }
