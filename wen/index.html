@@ -9,7 +9,7 @@
 				height: 100%;
 			}
 			body {
-				background: url(img/bg.jpg) no-repeat;
+				background: url(img/bg2.jpg) no-repeat;
 				background-size: 100% 100%;
 				margin: 0;
 				font-family: Helvetica, sans-serif;
@@ -171,8 +171,9 @@
 
 			// 生成虚拟数据
 	        for(var i=0;i<199;i++){
+	        	var n = i % 15;
 				personArray.push({
-		            image: "img/c.jpg"
+		            image: "img/"+ n +".jpg"
 		        });
 	        }
 
